@@ -23,7 +23,7 @@ TRUNCATE TABLE dbo.netflix
 
 --INGESTAR DATASET
 BULK INSERT dbo.netflix
-FROM 'C:\Users\USER\Desktop\ciclo 2024-1\Dataops\proyecto_final\python\datasets\netflix_titles.csv'
+FROM 'C:\Users\USER\Desktop\ciclo2024_1\Dataops\proyecto_final\python\datasets\netflix_titles.csv'
 WITH
 (
 FIRSTROW = 2, --empieza en la 2da fila, ya que la 1era es la cabecera
